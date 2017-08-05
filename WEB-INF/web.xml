@@ -1,0 +1,49 @@
+<web-app>
+	
+	<servlet>
+		<servlet-name>AdminVerify</servlet-name>
+		<servlet-class>AdminVerify</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AdminVerify</servlet-name>
+		<url-pattern>/adminverify</url-pattern>
+	</servlet-mapping>
+
+	
+	<servlet>
+		<servlet-name>ShowData</servlet-name>
+		<servlet-class>ShowData</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ShowData</servlet-name>
+		<url-pattern>/showdata</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>ShowItem</servlet-name>
+		<servlet-class>ShowItem</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ShowItem</servlet-name>
+		<url-pattern>/showitem</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>CheckPay</servlet-name>
+		<servlet-class>CheckPay</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>CheckPay</servlet-name>
+		<url-pattern>/checkpay</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>StoreData</servlet-name>
+		<servlet-class>StoreData</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>StoreData</servlet-name>
+		<url-pattern>/storedata</url-pattern>
+	</servlet-mapping>
+
+</web-app>
